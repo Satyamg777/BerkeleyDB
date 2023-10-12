@@ -1,0 +1,73 @@
+----------------------------------------------------------------------------
+Student ID: mc2149
+System name: mc2149
+Date & Time: Tuesday 12 September 2023 03:15:53 PM IST
+vendor_id : GenuineIntel
+model name : Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
+----------------------------------------------------------------------------
+Compiling.......
+Tuesday 12 September 2023 03:15:54 PM IST
+----------------------------------------------------------------------------
+Output: 
+ matrix_A_size:8*8
+ matrix_B_size:8*8
+ matrix_A_blocksize :8*8
+ matrix_B_blocksize :8*8
+ dbpath:satyam
+
+ wait matrices are storing to database 
+satyamA2.db
+satyamB2.db
+satyamC2.db
+
+ db for A,B and C are created.
+
+ matrix A is 
+1 2 3 4 5 6 7 8 
+1 2 3 4 5 6 7 8 
+1 2 3 4 5 6 7 8 
+1 2 3 4 5 6 7 8 
+1 2 3 4 5 6 7 8 
+1 2 3 4 5 6 7 8 
+1 2 3 4 5 6 7 8 
+1 2 3 4 5 6 7 8 
+
+ matrix B is 
+1 2 3 4 5 6 7 8 
+1 2 3 4 5 6 7 8 
+1 2 3 4 5 6 7 8 
+1 2 3 4 5 6 7 8 
+1 2 3 4 5 6 7 8 
+1 2 3 4 5 6 7 8 
+1 2 3 4 5 6 7 8 
+1 2 3 4 5 6 7 8 
+
+ Before multiplication matrix C is 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 
+
+ After multiplication matrix C is 
+36 72 108 144 180 216 252 288 
+36 72 108 144 180 216 252 288 
+36 72 108 144 180 216 252 288 
+36 72 108 144 180 216 252 288 
+36 72 108 144 180 216 252 288 
+36 72 108 144 180 216 252 288 
+36 72 108 144 180 216 252 288 
+36 72 108 144 180 216 252 288 
+
+ Time for storing data:0.321091
+ Time for retriveing data:2.19345e-05
+ Time for multiplying two matrices:2.00272e-05
+
+Database satyamA2.db is closed.
+
+Database satyamB2.db is closed.
+
+Database satyamC2.db is closed.

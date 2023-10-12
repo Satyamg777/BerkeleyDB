@@ -1,0 +1,9 @@
+Objective: Performing Matrix-Matrix Multiplication Using BDB
+
+database				#Folder to store database files created by Berkeley DB
+Makefile				#
+mat_mat_blk_by_blk_mul_BDB.cc
+mat_mat_hori_verti_db_mul_BDB.cc
+mat_read_write_value_by_value_BDB.cc
+ReadMe.file
+run
